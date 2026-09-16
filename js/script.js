@@ -84,7 +84,7 @@ const trips = [
     price:"₹13,999 Non-AC Sleeper / 3AC — Enquire",
     dates:"Every Saturday from Ahmedabad",
     pickup:"Ahmedabad / Rajkot / Surat / Vadodara / Delhi",
-    image:"images/saputara.jpg",
+    image:"images/dalhousie.jpg",
     days:[
       ["Day 01 — Ahmedabad → Chandigarh",["Begin the journey by train from Ahmedabad towards Chandigarh.","Meet fellow travellers and settle into the journey."]],
       ["Day 02 — Chandigarh → Shimla",["Pickup from Chandigarh and scenic drive to Shimla.","Arrive in Shimla and explore Mall Road and The Ridge.","Hotel check-in and overnight stay."]],
@@ -105,7 +105,7 @@ const trips = [
     price:"₹3,999 per person",
     dates:"Dates announced on enquiry",
     pickup:"Ahmedabad / Vadodara / Rajkot / Surat",
-    image:"https:/images/saputara.jpg",
+    image:"images/saputara.jpg",
     days:[
       ["Day 1 — Departure",["Departure by bus on the announced trip date.","Reporting at the specified Ahmedabad pickup locations."]],
       ["Day 2 — Campsite & Saputara Experiences",["Arrival at campsite and freshen up.","Breakfast, rest, photography and group games.","Lunch.","Visit Table Point.","Governor Hill Trek.","Enjoy sunset at Table Point.","Return to campsite, dinner, music and dance.","Breakfast, lunch and dinner; tent stay."]],
@@ -190,4 +190,3 @@ toggle.addEventListener("click",()=>{
   toggle.setAttribute("aria-expanded",open);
 });
 links.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>links.classList.remove("open")));
-
