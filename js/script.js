@@ -105,7 +105,7 @@ const trips = [
     price:"₹3,999 per person",
     dates:"Dates announced on enquiry",
     pickup:"Ahmedabad / Vadodara / Rajkot / Surat",
-    image:"https:/images/saputara.jpg",
+     image:"images/saputara.jpg",
     days:[
       ["Day 1 — Departure",["Departure by bus on the announced trip date.","Reporting at the specified Ahmedabad pickup locations."]],
       ["Day 2 — Campsite & Saputara Experiences",["Arrival at campsite and freshen up.","Breakfast, rest, photography and group games.","Lunch.","Visit Table Point.","Governor Hill Trek.","Enjoy sunset at Table Point.","Return to campsite, dinner, music and dance.","Breakfast, lunch and dinner; tent stay."]],
