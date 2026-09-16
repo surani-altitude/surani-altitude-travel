@@ -6,7 +6,7 @@ const trips = [
     price:"₹11,999 Non-AC Sleeper / ₹13,999 3AC",
     dates:"Every Saturday from Ahmedabad",
     pickup:"Ahmedabad / Rajkot / Surat / Vadodara / Delhi",
-    image:"https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=85",
+   image:"images/manali.jpg",
     days:[
       ["Day 01 — Your City → Chandigarh",["Train journey from your city to Chandigarh.","Early morning departure; carry breakfast or snacks for the journey.","Settle in and enjoy the beginning of the trip."]],
       ["Day 02 — Chandigarh → Manali",["Pickup from Chandigarh and scenic road journey towards Manali.","Enjoy the changing mountain landscapes on the way.","Visit Mall Road and Jogini Waterfall.","Hotel check-in and overnight stay in Manali."]],
@@ -27,7 +27,7 @@ const trips = [
     price:"₹11,999 Non-AC Sleeper / ₹13,999 3AC",
     dates:"Every Saturday from Ahmedabad",
     pickup:"Ahmedabad / Rajkot / Surat / Vadodara / Delhi",
-    image:"https://images.unsplash.com/photo-1605640840605-14ac1855827b?auto=format&fit=crop&w=1200&q=85",
+    image:"images/shimla.jpg",
     days:[
       ["Day 01 — Your City → Chandigarh",["Train journey from your city to Chandigarh.","Early morning departure; breakfast/snacks can be carried.","Settle into your seat and enjoy the journey."]],
       ["Day 02 — Chandigarh → Shimla",["Pickup from Chandigarh and scenic drive towards Shimla.","Arrive in Shimla and visit Mall Road and The Ridge.","Hotel check-in and overnight stay."]],
@@ -48,7 +48,7 @@ const trips = [
     price:"Starting ₹19,999",
     dates:"Every Saturday from Ahmedabad",
     pickup:"Ahmedabad / Rajkot / Surat / Vadodara / Delhi",
-    image:"https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=85",
+    image:"images/spiti.jpg",
     days:[
       ["Day 01 — Your City → Chandigarh",["Overnight train journey through Gujarat, Rajasthan and Haryana.","Enjoy scenic views, group activities and local flavours at stops such as Abu Road and Jaipur.","Connecting inter-station transfers from Ahmedabad/Gandhinagar to Surat, Baroda, Mumbai or Pune are not included."]],
       ["Day 02 — Chandigarh → Narkanda",["Arrive at Chandigarh Railway Station and meet the trip leader.","Briefing for the journey ahead.","Scenic drive towards Narkanda via Shimla.","Evening at leisure in the peaceful mountain surroundings."]],
@@ -69,7 +69,7 @@ const trips = [
     price:"₹8,500 per person",
     dates:"Departure dates on enquiry",
     pickup:"Delhi / Ambala / Chandigarh",
-    image:"https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=1200&q=85",
+    image:"images/jibhi.jpg",
     days:[
       ["Day 0 — Delhi → Jibhi",["Assemble at the pickup point in Delhi by evening.","Meet your Trip Captain and fellow travellers.","Trip briefing and introduction.","Begin the overnight journey towards Jibhi."]],
       ["Day 1 — Jibhi → Mini Thailand → Jibhi Waterfall",["Arrive in Jibhi and check in.","Freshen up and have breakfast.","Visit Mini Thailand and Jibhi Waterfall.","Café hopping and local market exploration.","Evening DJ night and group activities.","Bonfire session, weather permitting.","Dinner and overnight stay."]],
@@ -84,7 +84,7 @@ const trips = [
     price:"₹13,999 Non-AC Sleeper / 3AC — Enquire",
     dates:"Every Saturday from Ahmedabad",
     pickup:"Ahmedabad / Rajkot / Surat / Vadodara / Delhi",
-    image:"https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?auto=format&fit=crop&w=1200&q=85",
+    image:"images/saputara.jpg",
     days:[
       ["Day 01 — Ahmedabad → Chandigarh",["Begin the journey by train from Ahmedabad towards Chandigarh.","Meet fellow travellers and settle into the journey."]],
       ["Day 02 — Chandigarh → Shimla",["Pickup from Chandigarh and scenic drive to Shimla.","Arrive in Shimla and explore Mall Road and The Ridge.","Hotel check-in and overnight stay."]],
@@ -105,7 +105,7 @@ const trips = [
     price:"₹3,999 per person",
     dates:"Dates announced on enquiry",
     pickup:"Ahmedabad / Vadodara / Rajkot / Surat",
-    image:"https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85",
+    image:"https:/images/saputara.jpg",
     days:[
       ["Day 1 — Departure",["Departure by bus on the announced trip date.","Reporting at the specified Ahmedabad pickup locations."]],
       ["Day 2 — Campsite & Saputara Experiences",["Arrival at campsite and freshen up.","Breakfast, rest, photography and group games.","Lunch.","Visit Table Point.","Governor Hill Trek.","Enjoy sunset at Table Point.","Return to campsite, dinner, music and dance.","Breakfast, lunch and dinner; tent stay."]],
@@ -190,3 +190,4 @@ toggle.addEventListener("click",()=>{
   toggle.setAttribute("aria-expanded",open);
 });
 links.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>links.classList.remove("open")));
+
