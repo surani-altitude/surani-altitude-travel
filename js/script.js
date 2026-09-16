@@ -6,7 +6,7 @@ const trips = [
     price:"₹11,999 Non-AC Sleeper / ₹13,999 3AC",
     dates:"Every Saturday from Ahmedabad",
     pickup:"Ahmedabad / Rajkot / Surat / Vadodara / Delhi",
-   image:"images/manali.jpg",
+    image:"images/manali.jpg",
     days:[
       ["Day 01 — Your City → Chandigarh",["Train journey from your city to Chandigarh.","Early morning departure; carry breakfast or snacks for the journey.","Settle in and enjoy the beginning of the trip."]],
       ["Day 02 — Chandigarh → Manali",["Pickup from Chandigarh and scenic road journey towards Manali.","Enjoy the changing mountain landscapes on the way.","Visit Mall Road and Jogini Waterfall.","Hotel check-in and overnight stay in Manali."]],
@@ -84,7 +84,7 @@ const trips = [
     price:"₹13,999 Non-AC Sleeper / 3AC — Enquire",
     dates:"Every Saturday from Ahmedabad",
     pickup:"Ahmedabad / Rajkot / Surat / Vadodara / Delhi",
-    image:"images/dalhousie.jpg",
+    image:"images/saputara.jpg",
     days:[
       ["Day 01 — Ahmedabad → Chandigarh",["Begin the journey by train from Ahmedabad towards Chandigarh.","Meet fellow travellers and settle into the journey."]],
       ["Day 02 — Chandigarh → Shimla",["Pickup from Chandigarh and scenic drive to Shimla.","Arrive in Shimla and explore Mall Road and The Ridge.","Hotel check-in and overnight stay."]],
