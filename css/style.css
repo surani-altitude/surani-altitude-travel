@@ -253,3 +253,72 @@ code{background:#eef0ed;padding:2px 5px;border-radius:4px}
     height: 280px;
   }
 }
+/* =========================
+   WHY SURANI ALTITUDE
+========================= */
+
+.why-us {
+  background: #ffffff;
+}
+
+.why-us .section-heading {
+  margin-bottom: 45px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.why-card {
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #fafaf7;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow);
+}
+
+.why-icon {
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+
+.why-card h3 {
+  margin: 0 0 10px;
+  font-size: 19px;
+}
+
+.why-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-card {
+    padding: 24px;
+  }
+}
