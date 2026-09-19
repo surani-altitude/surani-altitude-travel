@@ -190,3 +190,29 @@ toggle.addEventListener("click",()=>{
   toggle.setAttribute("aria-expanded",open);
 });
 links.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>links.classList.remove("open")));
+// Gallery Lightbox
+const galleryImages = document.querySelectorAll(".gallery-item img");
+
+galleryImages.forEach((img) => {
+  img.addEventListener("click", () => {
+    const lightbox = document.createElement("div");
+    lightbox.className = "gallery-lightbox";
+
+    lightbox.innerHTML = `
+      <div class="lightbox-close">&times;</div>
+      <img src="${img.src}" alt="${img.alt}">
+    `;
+
+    document.body.appendChild(lightbox);
+
+    lightbox.querySelector(".lightbox-close").onclick = () => {
+      lightbox.remove();
+    };
+
+    lightbox.onclick = (e) => {
+      if (e.target === lightbox) {
+        lightbox.remove();
+      }
+    };
+  });
+});
