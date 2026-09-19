@@ -155,3 +155,101 @@ code{background:#eef0ed;padding:2px 5px;border-radius:4px}
   .footer-inner{grid-template-columns:1fr}.footer-links{flex-wrap:wrap}.copyright{grid-column:auto}
   .modal-panel{top:2vh;bottom:2vh;padding:25px}.modal-title{font-size:35px}.modal-columns{grid-template-columns:1fr}
 }
+/* =========================
+   TRAVEL GALLERY
+========================= */
+
+.gallery-section {
+  background: #f5f2eb;
+}
+
+.gallery-section .section-heading {
+  margin-bottom: 42px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+/* Gallery photo box */
+.gallery-item {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #ddd;
+  cursor: pointer;
+}
+
+/* Photos */
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+/* Hover effect */
+.gallery-item:hover img {
+  transform: scale(1.08);
+}
+
+/* Make selected photos bigger */
+.gallery-item:nth-child(1),
+.gallery-item:nth-child(6),
+.gallery-item:nth-child(9) {
+  grid-column: span 2;
+  height: 330px;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .gallery-item {
+    height: 240px;
+  }
+
+  .gallery-item:nth-child(1),
+  .gallery-item:nth-child(6),
+  .gallery-item:nth-child(9) {
+    grid-column: span 2;
+    height: 280px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .gallery-item {
+    height: 260px;
+    border-radius: 14px;
+  }
+
+  .gallery-item:nth-child(1),
+  .gallery-item:nth-child(6),
+  .gallery-item:nth-child(9) {
+    grid-column: span 1;
+    height: 280px;
+  }
+}
